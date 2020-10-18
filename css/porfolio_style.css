@@ -13,18 +13,28 @@ body {
 button {
     font-family: inherit;}
 
-/*header*/
+
+/*LOGO (header / footer*/
+
+
 .logo {
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-color:var(--black-color);
 text-decoration: none;
 }
 
-span {
+.logo-color {
 color: var(--blue-color);}
+
+.logo-color1 {
+    color:var(--black-color)}
+
+.logo-color2 {
+    color: var(--white-color);}
+
+/*header*/
 
 .navigation {
 font-weight: 500;
@@ -49,9 +59,6 @@ text-decoration: none;
  }
 
 /*main*/
-.link, .navigation-footer {
-    list-style: none;
-}
 
 .button {
 font-weight: 500;
@@ -84,6 +91,10 @@ line-height: 1.88;
 color: var(--grey-color);
 
 }
+
+.link, .navigation-footer {
+    list-style: none;
+}
 /*footer*/
 .footer{
     background-color:#2F303A;
@@ -100,7 +111,4 @@ text-decoration: none;
     color: var(--white-color);
     text-decoration: none;
     
-}
-.logo-color2 {
-    color: var(--white-color);
 }

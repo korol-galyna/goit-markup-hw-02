@@ -89,26 +89,26 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 color: var(--grey-color);
-
 }
 
 .link, .navigation-footer {
-    list-style: none;
+list-style: none;
 }
+
 /*footer*/
 .footer{
-    background-color:#2F303A;
+background-color:#2F303A;
 }
+
 .navigation-footer {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 font-style: normal;.
 text-decoration: none;
-
 }
-.navigation-footer1{
-    color: var(--white-color);
-    text-decoration: none;
-    
+
+.navigation-footer1 {
+color: var(--white-color);
+text-decoration: none;
 }

@@ -1,0 +1,143 @@
+:root {
+ --black-color: #212121;
+--grey-color: #757575;
+--white-color:#FFFFFF;
+--blue-color:#2196F3;
+}
+    
+body {
+font-family: Roboto, sans-serif;
+font-style: normal;
+}
+    
+button {
+font-family: inherit;}
+    
+    
+/*LOGO (header / footer*/
+    
+    
+.logo {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+}
+    
+.logo-color {
+color: var(--blue-color);}
+    
+.logo-color1 {
+color:var(--black-color)}
+    
+.logo-color2 {
+color: var(--white-color);}
+
+.navigation {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+list-style:none;
+}
+            
+.navigation-link {
+color:var(--black-color);
+text-decoration: none;
+}
+            
+.navigation-link2 {
+color: var(--grey-color);
+text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link2:hover,
+.navigation-link2:focus {
+color: var(--blue-color);}   
+
+/*main*/
+.link, .navigation-footer {
+list-style: none;
+}
+
+.title {
+    text-align: center;
+    background-color: #2F303A;
+}
+
+.title h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: var(--white-color);
+text-transform: uppercase;
+}
+
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+color: var(--white-color);
+background-color: var(--blue-color);
+}
+
+.link h3 {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--black-color);
+list-style: none;
+}
+
+.link1 {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--grey-color);
+list-style: none;
+}
+
+.section-header {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--black-color);
+}
+ .section-header h3 {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+color: var(--black-color);
+ }
+
+.section-header p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+color: var(--grey-color);
+}
+
+
+/*footer*/
+.footer{
+    background-color:#2F303A;
+    }
+    
+    .navigation-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;.
+    text-decoration: none;
+    }
+    
+    .navigation-footer1 {
+    color: var(--white-color);
+    text-decoration: none;
+    }
+    

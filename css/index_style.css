@@ -56,7 +56,14 @@ text-decoration: none;
 .navigation-link:focus,
 .navigation-link2:hover,
 .navigation-link2:focus {
-color: var(--blue-color);}   
+color: var(--blue-color);}
+
+
+.navigation-link:active,
+.navigation-link2:active {
+color:red;
+}
+
 
 /*main*/
 .link, .navigation-footer {
@@ -73,8 +80,12 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: var(--white-color);
+}
+
+.first-letter {
 text-transform: uppercase;
 }
+
 
 .button {
 font-weight: 700;
@@ -84,7 +95,7 @@ color: var(--white-color);
 background-color: var(--blue-color);
 }
 
-.link h3 {
+.title-name {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -101,21 +112,22 @@ color: var(--grey-color);
 list-style: none;
 }
 
+/*Наша команда*/
+
 .section-header {
 font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
-color: var(--black-color);
 }
- .section-header h3 {
+ .section-header-name {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 color: var(--black-color);
  }
 
-.section-header p {
+.section-header-name2 {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -125,19 +137,23 @@ color: var(--grey-color);
 
 /*footer*/
 .footer{
-    background-color:#2F303A;
-    }
+background-color:#2F303A;
+}
     
-    .navigation-footer {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    font-style: normal;.
-    text-decoration: none;
-    }
+.navigation-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+font-style: normal;.
+text-decoration: none;
+}
     
-    .navigation-footer1 {
-    color: var(--white-color);
-    text-decoration: none;
-    }
+.navigation-footer1 {
+color: var(--white-color);
+text-decoration: none;
+}
     
+.navigation-link3 {
+color:rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}

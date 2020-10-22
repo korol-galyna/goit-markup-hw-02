@@ -58,6 +58,11 @@ text-decoration: none;
      color: var(--blue-color);
  }
 
+ .navigation-link:active,
+.navigation-link2:active {
+color:red;
+}
+
 /*main*/
 
 .button {
@@ -76,7 +81,7 @@ text-decoration: none;
     background-color: var(--blue-color);
 }
 
-.main-navigation h1 {
+.main-navigation h3 {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
@@ -110,5 +115,9 @@ text-decoration: none;
 
 .navigation-footer1 {
 color: var(--white-color);
+text-decoration: none;
+}
+.navigation-link3 {
+color:rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }

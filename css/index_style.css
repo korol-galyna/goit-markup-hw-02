@@ -61,7 +61,7 @@ color: var(--blue-color);}
 
 .navigation-link:active,
 .navigation-link2:active {
-color:red;
+color:var(--blue-color);
 }
 
 
@@ -80,6 +80,7 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: var(--white-color);
+text-transform:uppercase;
 }
 
 .first-letter {
@@ -119,6 +120,7 @@ font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
+color:var(--black-color);
 }
  .section-header-name {
 font-weight: 500;

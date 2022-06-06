@@ -1,0 +1,86 @@
+:root {
+    --blue-color: #2196F3;
+    --black-color:#212121;
+    --white-color:#FFFFFF;
+    --text-color:#757575;
+    --header-color:rgba(255, 255, 255, 0.6);
+    --bg-color-first:#2F303A;
+    --bg-color-second:#F5F4FA;
+  }
+
+
+
+ a  {text-decoration: none;}
+ li {list-style:none;} /*точки*/
+ body {color: var(--text-color);}
+
+ /* *HEADER*/
+
+.header-navigation a {
+    color: var(--black-color);}
+
+.logo-header,
+.logo-footer {
+    color: var(--blue-color);}
+
+.header-contact a {
+    color: var(--text-color);}
+
+.header .link:hover,
+.header .link:focus{
+    color: var(--blue-color);
+    }
+
+/* * STUDIO */
+
+.section-hero {
+    background-color: var(--bg-color-first);
+    color: #FFFFFF;
+}
+
+.button {
+    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--black-color);
+    background-color: var(--bg-color-second);
+}
+
+.third-title {
+    color: var(--black-color);
+}
+
+
+.second-title {
+    color: var(--black-color);}
+
+/* * PORTFOLIO */
+
+.navigation-portfolio .button {
+    color: var(--black-color);
+    background-color: var(--bg-color-second);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+/* *FOOTER*/ 
+
+.footer {
+    background-color: var(--bg-color-first);}
+
+.footer a {
+    color: var(--white-color);}
+
+.footer .footer-link {color: rgba(255, 255, 255, 0.6);}
+
+
+
+

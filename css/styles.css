@@ -1,85 +1,201 @@
 :root {
-    --blue-color: #2196F3;
-    --black-color:#212121;
-    --white-color:#FFFFFF;
-    --text-color:#757575;
-    --header-color:rgba(255, 255, 255, 0.6);
-    --bg-color-first:#2F303A;
-    --bg-color-second:#F5F4FA;
-  }
+  --blue-color: #2196f3;
+  --black-color: #212121;
+  --white-color: #ffffff;
+  --text-color: #757575;
+  --header-color: rgba(255, 255, 255, 0.6);
+  --bg-color-first: #2f303a;
+  --bg-color-second: #f5f4fa;
+}
+
+body {
+  color: var(--black-color);
+  background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+.list {
+    list-style: none;}
+
+.decor {
+    text-decoration: none;
+}
+
+.text {color: var(--text-color);}
 
 
+/**COMMON header and footer*/
 
- a  {text-decoration: none;}
- li {list-style:none;} /*точки*/
- body {color: var(--text-color);}
-
- /* *HEADER*/
-
-.header-navigation a {
-    color: var(--black-color);}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
 
 .logo-header,
 .logo-footer {
-    color: var(--blue-color);}
-
-.header-contact a {
-    color: var(--text-color);}
+  color: var(--blue-color);
+}
 
 .header .link:hover,
-.header .link:focus{
-    color: var(--blue-color);
-    }
+.header .link:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--blue-color);
+}
 
-/* * STUDIO */
+/**HEADER*/
+
+.header .logo {
+    color: var(--black-color);
+}
+
+.header-navigation .link
+ {
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-contact .link {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+/**Section 1*/
 
 .section-hero {
     background-color: var(--bg-color-first);
-    color: #FFFFFF;
 }
 
-.button {
+.first-title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+    
+.button-primary {
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--blue-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
-.button:hover,
-.button:focus {
-    color: var(--black-color);
-    background-color: var(--bg-color-second);
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--black-color);
+  background-color: var(--bg-color-second);
+}
+    
+/**Section 2*/
+
+.features-list .third-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
-.third-title {
-    color: var(--black-color);
+.features-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
+/**Section 3*/
 
 .second-title {
-    color: var(--black-color);}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 
-/* * PORTFOLIO */
+/**Section 4*/
 
-.navigation-portfolio .button {
+.team-list .third-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/**Section 5 - PORTFOLIO*/
+
+.button-second {
     color: var(--black-color);
     background-color: var(--bg-color-second);
-}
-
-.button:hover,
-.button:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+  
+  .button-second:hover,
+  .button-second:focus {
     color: var(--white-color);
     background-color: var(--blue-color);
-}
+  }
+  
+  .works-portfolio .third-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+  }
+  .works-portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  }
 
-/* *FOOTER*/ 
+/**FOOTER*/
 
 .footer {
-    background-color: var(--bg-color-first);}
+    background-color: var(--bg-color-first);
+}
 
-.footer a {
-    color: var(--white-color);}
+.footer .logo,
+.footer-address {
+    color: var(--white-color);
+}
 
-.footer .footer-link {color: rgba(255, 255, 255, 0.6);}
+.footer-address {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   font-style: normal;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+
+
+
+
+
+
 
 
 

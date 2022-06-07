@@ -28,7 +28,7 @@ body {
 /**COMMON header and footer*/
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -84,7 +84,7 @@ body {
 }
     
 .button-primary {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     cursor: pointer;
     color: var(--white-color);
@@ -143,7 +143,7 @@ body {
 .button-second {
     color: var(--black-color);
     background-color: var(--bg-color-second);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

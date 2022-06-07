@@ -84,6 +84,8 @@ body {
 }
     
 .button-primary {
+    font-family: 'Roboto';
+    font-style: normal;
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--blue-color);
@@ -142,6 +144,8 @@ body {
 .button-second {
     color: var(--black-color);
     background-color: var(--bg-color-second);
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;

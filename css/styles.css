@@ -28,7 +28,7 @@ body {
 /**COMMON header and footer*/
 
 .logo {
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -84,12 +84,11 @@ body {
 }
     
 .button-primary {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     cursor: pointer;
     color: var(--white-color);
     background-color: var(--blue-color);
-    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -144,7 +143,7 @@ body {
 .button-second {
     color: var(--black-color);
     background-color: var(--bg-color-second);
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
